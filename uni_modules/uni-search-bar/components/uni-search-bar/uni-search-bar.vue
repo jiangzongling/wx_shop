@@ -99,9 +99,9 @@ s<template>
 		},
 		data() {
 			return {
-				show: false,
-				showSync: false,
-				searchVal: ''
+				show: true,
+				showSync: true,
+				searchVal: ""
 			}
 		},
 		computed:{
