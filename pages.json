@@ -58,7 +58,7 @@
     "navigationBarBackgroundColor": "#C00000",
     "backgroundColor": "#FFFFFF",
     "app-plus": {
-      "background": "#efeff4"
+      "background": "#FFFFFF"
     }
   },
   "tabBar": {
