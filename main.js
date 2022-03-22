@@ -6,6 +6,9 @@ import App from './App'
 // 导入网络请求的包
 import { $http } from '@escook/request-miniprogram'
 
+// 1. 导入 store 的实例对象
+import store from './store/store.js'
+
 // 将按需导入的 $http 挂载到 uni 顶级对象之上，方便全局调用
 uni.$http = $http
 // 请求的根路径
@@ -36,7 +39,9 @@ Vue.config.productionTip = false
 App.mpType = 'app'
 
 const app = new Vue({
-    ...App
+    ...App,
+    // 2. 将 store 挂载到 Vue 实例上
+    store
 })
 app.$mount()
 // #endif
