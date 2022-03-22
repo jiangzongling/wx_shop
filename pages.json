@@ -1,42 +1,22 @@
 {
   "pages": [{
     "path": "pages/home/home",
-    "style": {
-      "navigationBarTitleText": "西柚优购",
-      "enablePullDownRefresh": false
-    }
-
+    "style": {}
   }, {
     "path": "pages/cate/cate",
-    "style": {
-      "navigationBarTitleText": "",
-      "enablePullDownRefresh": false
-    }
-
+    "style": {}
   }, {
     "path": "pages/cart/cart",
-    "style": {
-      "navigationBarTitleText": "",
-      "enablePullDownRefresh": false
-    }
-
+    "style": {}
   }, {
     "path": "pages/my/my",
-    "style": {
-      "navigationBarTitleText": "",
-      "enablePullDownRefresh": false
-    }
-
+    "style": {}
   }],
   "subPackages": [{
     "root": "subpkg",
     "pages": [{
       "path": "goods_detail/goods_detail",
-      "style": {
-        "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
-      }
-
+      "style": {}
     }, {
       "path": "goods_list/goods_list",
       "style": {
@@ -44,24 +24,16 @@
         "enablePullDownRefresh": true,
         "backgroundColor": "#F8F8F8"
       }
-
     }, {
       "path": "search/search",
-      "style": {
-        "navigationBarTitleText": "",
-        "enablePullDownRefresh": false
-      }
-
+      "style": {}
     }]
   }],
   "globalStyle": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "西柚优购",
+    "navigationBarTitleText": "黑马优购",
     "navigationBarBackgroundColor": "#C00000",
-    "backgroundColor": "#FFFFFF",
-    "app-plus": {
-      "background": "#FFFFFF"
-    }
+    "backgroundColor": "#FFFFFF"
   },
   "tabBar": {
     "selectedColor": "#C00000",

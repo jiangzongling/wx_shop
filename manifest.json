@@ -42,7 +42,8 @@
             "ios" : {},
             /* ios打包配置 */
             "sdkConfigs" : {}
-        }
+        },
+        "nvueLaunchMode" : ""
     },
     /* SDK配置 */
     "quickapp" : {},
@@ -52,7 +53,7 @@
         "appid" : "wx12e66d9c2ada2483",
         "setting" : {
             "urlCheck" : true,
-            "checkSiteMap":false
+            "checkSiteMap" : false
         },
         "usingComponents" : true
     }
